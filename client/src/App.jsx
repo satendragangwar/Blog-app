@@ -7,11 +7,10 @@ import Register from './pages/Register';
 import Footer from './components/Footer';
 import Settings from './pages/Settings';
 import Write from './pages/Write';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Posts from './components/Posts';
 import About from './pages/About';
 import Contact from './pages/Contact';
-
 const App = () => {
   const user = false;
   return (
@@ -50,5 +49,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;

@@ -9,7 +9,7 @@ const Home = () => {
         <Header />
         <div className="home flex">
             <Posts />
-            <Sidebar />
+            {/* <Sidebar /> */}
         </div>
     </>
   )
